@@ -1,2 +1,2 @@
 #!/bin/bash
-CFILE='0assembler.c'; gcc -S '$CFILE' -o '0assembler.s'
+gcc -S "$CFILE" -o "${CFILE%.c}.s"

@@ -1,2 +1,2 @@
 #!/bin/bash
-CFILE='0name.c'; gcc '$CFILE' -o cisfun
+gcc "$CFILE" -o cisfun
