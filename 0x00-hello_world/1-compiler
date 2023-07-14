@@ -1,0 +1,2 @@
+#!/bin/bash
+CFILE=0compiler.c; -P "$CFILE" -o '0compiler.o'

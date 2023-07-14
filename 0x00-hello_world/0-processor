@@ -1,0 +1,2 @@
+#!/bin/bash
+CFILE='preprocessor.c'; cpp -P '$CFILE' -o 'c'
