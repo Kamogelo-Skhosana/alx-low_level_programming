@@ -19,7 +19,7 @@ lastDigit = abs(n % 10);
 printf("Last digit of %d is ", n);
 if (n < 0)
 {
-lastDigit = lastDigit * -1
+lastDigit = lastDigit * -1;
 }
 if (lastDigit > 5)
 {
