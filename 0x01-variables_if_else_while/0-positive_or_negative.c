@@ -3,11 +3,11 @@
 /* more headers goes there */
 #include <stdio.h>
 /* betty style doc for function main goes there */
-/* 
- *positive, negative or zero for random numbers
- */
 int main(void)
 {
+/*
+ *positive, negative or zero for random numbers
+ */
 int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
