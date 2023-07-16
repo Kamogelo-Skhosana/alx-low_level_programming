@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-putchar('0123456789');
-utchar('\n');
+putchar('012345');
+putchar('6789\n');
 return (0);
 }
