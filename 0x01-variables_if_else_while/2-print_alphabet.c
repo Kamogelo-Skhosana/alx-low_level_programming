@@ -4,11 +4,11 @@
  */
 int main(void)
 {
-char letters;
-for (letters = "a"; letters <= "z"; letters++)
+char letter;
+for (letter = 'a'; letter <= 'z'; ++letter)
 {
-putchar(letters);
+putchar(letter);
 }
-putchar("\n");
-return (0)
+putchar('\n');
+return (0);
 }
