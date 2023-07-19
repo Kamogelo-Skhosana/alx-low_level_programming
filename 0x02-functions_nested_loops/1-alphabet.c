@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+#include "_putchar.c"
 /**
  * main - check the code
  *
@@ -7,6 +8,14 @@
  */
 int main(void)
 {
-print_alphabet();
+print_alphabet()
+{
+char c;
+for (c = 'a'; c <= 'z'; c++)
+{
+_putchar(c);
+}
+_putchar('\n');
+}
 return (0);
 }
