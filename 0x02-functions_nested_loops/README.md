@@ -1,1 +1,1 @@
-readme fot c - functions nested loops
+readme for c - functions nested loops
