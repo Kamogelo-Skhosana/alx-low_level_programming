@@ -2,7 +2,7 @@
 /**
  * print_sign - print sign of a number
  * @n: the variable
- * retur : 1 n, 0 or -1 n
+ * return : 1 n, 0 or -1 n
  */
 int print_sign(int n)
 {
@@ -16,7 +16,7 @@ else if (n == 0)
 _putchar('0');
 return (0);
 }
-else 
+else
 {
 _putchar('-');
 return (-1);
