@@ -18,7 +18,7 @@ return (0);
 }
 else 
 {
-_purchar('-');
+_putchar('-');
 return (-1);
 }
 }
