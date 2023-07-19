@@ -7,6 +7,12 @@
  */
 int main(void)
 {
-printf('_putchar');
+char str[] = "_putchar\n";
+int = 0;
+while (str[i] != '\0')
+{
+putchar(str[i]);
+i++;
+}
 return (0);
 }
