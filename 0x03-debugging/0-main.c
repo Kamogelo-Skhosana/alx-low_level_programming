@@ -1,4 +1,3 @@
-
 #include "main.h"
 /**
 * main - tests the function positive_or_negative
