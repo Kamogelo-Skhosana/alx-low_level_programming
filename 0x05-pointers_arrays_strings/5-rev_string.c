@@ -9,7 +9,7 @@ int length = 0;
 int i;
 int j;
 char temp;
-while (s[length]!= '\0')
+while (s[length] != '\0')
 {
 length++;
 }
