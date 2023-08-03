@@ -42,6 +42,6 @@ _putchar(',');
 _putchar(' ');
 }
 }
-_putchat('\n');
+_putchar('\n');
 }
 }
