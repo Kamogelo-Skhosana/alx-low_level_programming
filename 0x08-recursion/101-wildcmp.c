@@ -1,5 +1,5 @@
 #include "main.h"
-/** 
+/**
  * wildcmp - compares two strings if identical
  * @s1: string 1
  * @s2: string 2
