@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - Entry point
- * @argc: number or arguments
- * @argv: array of argument
+ * main - Entry Point
+ * @argc: number of arguments
+ * @argv: array of arguments
  * Return: 0
  */
 int main(int argc, char *argv[])
@@ -12,16 +12,10 @@ int i, cents, coins = 0;
 int denominations[5];
 int num_denominations;
 if (argc != 2)
-{
-printf("Error\n");
-return 1;
-}
+return (printf("Error\n"), 1);
 cents = atoi(argv[1]);
 if (cents < 0)
-{
-printf("0\n");
-return 0;
-}
+return (printf("0\n"), 0);
 denominations[0] = 25;
 denominations[1] = 10;
 denominations[2] = 5;
