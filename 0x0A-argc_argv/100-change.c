@@ -1,9 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 /**
  * main - Entry point
- * @argc: number of arguments
- * @argv: array of arguments
+ * @argc: number or arguments
+ * @argv: array of argument
  * Return: 0
  */
 int main(int argc, char *argv[])
