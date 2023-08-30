@@ -9,16 +9,18 @@
  */
 char *create_array(unsigned int size, char c)
 {
+char *array;
 if (size == 0)
 {
 return (NULL);
 }
-char *array = (char *)malloc(size);
+array = (char *)malloc(size);
 if (array == NULL)
 {
-return (NULL); // Memory allocation failed
+return (NULL);
 }
-for (unsigned int i = 0; i < size; i++)
+unsigned int i;
+for (i = 0; i < size; i++)
 {
 array[i] = c;
 }
