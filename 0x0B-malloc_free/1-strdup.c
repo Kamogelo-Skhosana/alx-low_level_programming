@@ -6,22 +6,23 @@
  * Return: pointer to the duplicated string
  */
 char *_strdup(char *str)
+int i;
+int length = 0;
+char *newStr = (char *)malloc((length + 1) * sizeof(char));
 {
 if (str == NULL)
 {
 return NULL;
 }
-int length = 0;
 while (str[length] != '\0')
 {
 length++;
 }
-char *newStr = (char *)malloc((length + 1) * sizeof(char));
 if (newStr == NULL)
 {
 return NULL;
 }
-for (int i = 0; i <= length; i++)
+for (i = 0; i <= length; i++)
 {
 newStr[i] = str[i];
 }
