@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * main - main entry
  * @argc: number of arguments
@@ -11,6 +12,5 @@ if (argc >= 1)
 {
 printf("%s\n", argv[0]);
 }
-return 0;
+return (0);
 }
-
