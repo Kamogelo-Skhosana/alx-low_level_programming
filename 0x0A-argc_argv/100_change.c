@@ -8,28 +8,28 @@
  */
 int main(int argc, char *argv[])
 {
-int i, cents, coins = 0;
-int denominations[5];
-int num_denominations;
 if (argc != 2)
 {
-return (printf("Error\n"), 1);
+printf("Error\n");
+return (1);
 }
-cents = atoi(argv[1]);
+int cents = atoi(argv[1]);
 if (cents < 0)
 {
-return (printf("0\n"), 0);
+printf("0\n");
+return (0);
 }
-denominations[0] = 25;
-denominations[1] = 10;
-denominations[2] = 5;
-denominations[3] = 2;
-denominations[4] = 1;
-num_denominations = sizeof(denominations) / sizeof(int);
-for (i = 0; i < num_denominations && cents; i++)
+int coins[] = {25, 10, 5, 2, 1};
+int numCoins = sizeof(coins) / sizeof(coins[0]);
+int coinCount = 0;
+for (int i = 0; i < numCoins; i++)
 {
-coins += cents / denominations[i];
-cents %= denominations[i];
+while (cents >= coins[i])
+{
+cents -= coins[i];
+coinCount++;
 }
-return(printf("%d\n", coins), 0);
+}
+printf("%d\n", coinCount);
+return (0);
 }
