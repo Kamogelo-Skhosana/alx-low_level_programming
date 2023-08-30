@@ -13,12 +13,14 @@ int denominations[5];
 int num_denominations;
 if (argc != 2)
 {
-return (printf("Error\n"), 1);
+printf("Error\n");
+return 1;
 }
 cents = atoi(argv[1]);
 if (cents < 0)
 {
-return (printf("0\n"), 0);
+printf("0\n");
+return 0;
 }
 denominations[0] = 25;
 denominations[1] = 10;
@@ -31,5 +33,6 @@ for (i = 0; i < num_denominations && cents; i++)
 coins += cents / denominations[i];
 cents %= denominations[i];
 }
-return(printf("%d\n", coins), 0);
+printf("%d\n", coins);
+return (0);
 }
