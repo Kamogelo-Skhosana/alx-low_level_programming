@@ -6,7 +6,7 @@
  * @argv: array of argument
  * Return: 0
  */
-int main(int argc, int *argv[])
+int main(int argc, char *argv[])
 {
 if (argc != 3)
 {
