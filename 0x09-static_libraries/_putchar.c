@@ -1,11 +1,18 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * _putchar - Entry point
- * @s: character
+ * main - Entry point
+ *
  * Return: Always 0 (Success)
  */
-int _putchar(char c)
+int main(void)
 {
-return (write(1, &c, 1));
+char str[] = "_putchar\n";
+int i = 0;
+while (str[i] != '\0')
+{
+putchar(str[i]);
+i++;
+}
+return (0);
 }
